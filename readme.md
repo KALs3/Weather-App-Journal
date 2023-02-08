@@ -1,4 +1,4 @@
-#Weather journal
+Weather journal
 
 *a website that gives you weather information based on the zipcode submited by the user*.
 
