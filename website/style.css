@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://source.unsplash.com/random/1600x900/?landscape');
+    background-size: cover;
+    font-size: large;
+}
+.card{
+    background-color: rgba(2, 2, 2, 0.5);
+    color: #fff;
+    padding: 2em;
+    border-radius: 30px;
+}
+.selection-elemnts{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;    
+}
+select{
+    border-radius: 5px;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.609);
+    color: #fff;
+    border: none;
+    padding: 10px;
+
+}
+#zip{
+    background-color: rgba(0, 0, 0, 0.609);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    width: 80%;
+}
+#generate{
+    position: absolute;
+    margin: 0.3em;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.609);
+    color: #fff;
+    border-radius: 50px 40px;
+    padding: 10px;
+}
+#feelings{
+    background-color: rgba(0, 0, 0, 0.609);
+    color: #fff;
+    margin-top:4px;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    width: 80%;
+}
+.entry{
+    font-size: larger;
+}
+.icon{
+    margin-left: 441px;
+    margin-top: -125px;
+}
+

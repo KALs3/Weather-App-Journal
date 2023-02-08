@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Weather Journal</title>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" type="image/jpg" href="/website/images/04n.png">
+</head>
+ <body>
+
+
+  
+  <div class ="card">
+
+    <div class="selection-elemnts">
+    <label for="zip"></label>
+      <div><h1>Weather Journal</h1></div>
+    <span class="text">you can choose zip codes from the list here </span>
+    <select id="zipcodes" autofocus>
+      <option></option>
+      <option value="10001">10001</option>
+      <option value="10002">10002</option>
+      <option value="10003">10003</option>
+      <option value="10004">10004</option>
+      <option value="10005">10005</option>
+      <option value="10006">10006</option>
+      <option value="98004">98004</option>
+      <option value="98005">98005</option>
+      <option value="98006">98006</option>
+      <option value="98007">98007</option>
+      <option value="98010">98010</option>
+      <option value="75939">75939</option>
+
+    </select>
+
+    <span class="text">if you didn't find your zip code you can enter yours here</span>
+    <input type="text" id="zip" placeholder="enter zip code here">
+    <span id="error"></span>
+
+  </div>
+ 
+
+
+
+    <!-- user input -->
+  <div class ="feel">
+    <label for="feelings">How are you feeling today?</label>
+    <textarea class= "myInput" id="feelings" placeholder="Enter your feelings here" rows="1" ></textarea>
+    <button id="generate" type = "submit"> Generate </button>
+    
+  </div>
+
+  
+
+  <!-- recent entry -->
+  <div class ="entry">
+    <div class = "title">Most Recent Entry :</div>
+   <div id = "entryHolder">
+    <div id = "date"></div> 
+   <div id = "temp"></div>
+   <div id = "content"></div>
+   <div id = "status"></div>
+   <div class="icon">
+    <img id="icon" src="" alt="">
+   </div>
+  </div>
+  </div>
+
+</div>
+<script src="app.js" type="text/javascript"></script>
+
+</body>
+</html>
