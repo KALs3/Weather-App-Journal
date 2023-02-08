@@ -1,5 +1,5 @@
 Weather journal
-*a website that gives you weather information based on the zipcode submited by the user*.
+*The weather journal app is a website that gives you weather information based on the zip code submitted by the user.*.
 
 --------------------
 it's built using 
